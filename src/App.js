@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './style.css';
 import AOS from 'aos';
+import Component1 from './components/Component1';
 
 export default function App() {
   useEffect(() => {
@@ -9,7 +10,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <div className="box" />
+      <Component1 />
     </div>
   );
 }
