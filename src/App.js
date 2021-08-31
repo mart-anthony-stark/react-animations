@@ -16,7 +16,6 @@ export default function App() {
 
   return (
     <div {...bind} class="main" onClick={() => toggle(!open)}>
-      <Component1 />
       <animated.div class="fill" style={props} />
       <animated.div class="content">
         {props.width.interpolate(x => Math.floor((x.toFixed(0) * 100) / width))}
