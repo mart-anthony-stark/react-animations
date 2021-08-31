@@ -1,0 +1,21 @@
+.active {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.tabs {
+  position: fixed;
+  inset: 0;
+  height: 100vh;
+  z-index: 50;
+}
+.tab {
+  height: calc(100vh - 60px);
+  background: #fff;
+  font-weight: bolder;
+  font-size: 2rem;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
