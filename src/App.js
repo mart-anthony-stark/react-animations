@@ -11,9 +11,9 @@ export default function App() {
     to: { width: '100%' }
   });
 
-  useEffect(() => {
-    AOS.init();
-  }, []);
+  // useEffect(() => {
+  //   AOS.init();
+  // }, []);
 
   return (
     <div className="main">
