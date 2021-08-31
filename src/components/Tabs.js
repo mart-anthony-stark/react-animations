@@ -3,9 +3,7 @@ import '../styles/tab.css';
 
 export default function Tabs() {
   const [tab, setTab] = useState(1);
-
   const toggleTab = tab => {
-    console.log(tab);
     setTab(tab);
   };
 
