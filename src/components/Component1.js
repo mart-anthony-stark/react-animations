@@ -1,7 +1,7 @@
 import React from 'react';
 import { Spring } from 'react-spring';
 
-export default function One() {
+export default function Component1() {
   return (
     <Spring
       from={{ opacity: 0, marginTop: -500 }}
@@ -9,13 +9,13 @@ export default function One() {
     >
       {props => (
         <div style={props}>
-          <div style={c1}>
-            <h1>Component1</h1>
+          <div style={c1Style}>
+            <h1>Component 1</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aut
-              possimus, aliquam, perspiciatis laborum nulla porro veniam commodi
-              autem aspernatur magni, ullam quod ad? Magni maiores saepe itaque
-              eligendi animi.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
+              nobis adipisci eum minima deserunt at porro, veritatis officia
+              commodi itaque voluptates vel suscipit assumenda soluta ipsa
+              voluptatibus laudantium labore harum?
             </p>
           </div>
         </div>
@@ -23,8 +23,17 @@ export default function One() {
     </Spring>
   );
 }
-const c1 = {
-  background: 'red',
+
+const c1Style = {
+  background: 'steelblue',
   color: 'white',
   padding: '1.5rem'
+};
+
+const counter = {
+  background: '#333',
+  textAlign: 'center',
+  width: '100px',
+  borderRadius: '50%',
+  margin: '1rem auto'
 };
